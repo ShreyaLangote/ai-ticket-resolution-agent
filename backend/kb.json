@@ -1,0 +1,77 @@
+[
+  {
+    "id": "kb1",
+    "title": "Password reset procedure",
+    "content": "Ask user to click password reset. If link expired, generate manual reset and confirm identity."
+  },
+  {
+    "id": "kb2",
+    "title": "VPN troubleshooting",
+    "content": "Check VPN server status, restart service, verify firewall rules and user credentials."
+  },
+  {
+    "id": "kb3",
+    "title": "Disk cleanup",
+    "content": "Rotate logs, remove old backups, increase disk volume or attach more storage."
+  },
+  {
+    "id": "kb4",
+    "title": "Email not syncing",
+    "content": "Check IMAP/POP settings, verify server status, re-authenticate the email account."
+  },
+  {
+    "id": "kb5",
+    "title": "Slow system performance",
+    "content": "Check CPU and memory usage, close unnecessary apps, update OS and drivers."
+  },
+  {
+    "id": "kb6",
+    "title": "Application crash",
+    "content": "Check logs for errors, reinstall application, update dependencies and OS patches."
+  },
+  {
+    "id": "kb7",
+    "title": "Network connectivity issues",
+    "content": "Ping gateway, check DNS configuration, restart network services, check cables."
+  },
+  {
+    "id": "kb8",
+    "title": "Printer offline",
+    "content": "Verify printer power and network connection, restart printer service, reinstall driver."
+  },
+  {
+    "id": "kb9",
+    "title": "Unable to login",
+    "content": "Verify username/password, check account lockout, reset password if required."
+  },
+  {
+    "id": "kb10",
+    "title": "Software installation error",
+    "content": "Check system requirements, ensure proper permissions, disable antivirus temporarily."
+  },
+  {
+    "id": "kb11",
+    "title": "Database connection failure",
+    "content": "Verify DB credentials, check network connectivity, restart database service."
+  },
+  {
+    "id": "kb12",
+    "title": "High CPU usage",
+    "content": "Identify processes consuming CPU, restart services if needed, apply performance tuning."
+  },
+  {
+    "id": "kb13",
+    "title": "Disk full alerts",
+    "content": "Remove unnecessary files, archive old data, expand disk capacity or add storage."
+  },
+  {
+    "id": "kb14",
+    "title": "Server reboot required",
+    "content": "Check pending updates, notify users, schedule downtime, reboot server safely."
+  },
+  {
+    "id": "kb15",
+    "title": "Software license expired",
+    "content": "Check license status, renew license, update application with new license key."
+  }
+]

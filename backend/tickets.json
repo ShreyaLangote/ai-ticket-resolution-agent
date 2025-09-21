@@ -1,0 +1,95 @@
+[
+  {
+    "id": 1,
+    "title": "Password reset request",
+    "description": "User cannot log in after password reset link expired",
+    "priority": "?",
+    "created_at": "2025-09-17T09:00:00Z"
+  },
+  {
+    "id": 2,
+    "title": "VPN down from home",
+    "description": "VPN fails with error code 403 for multiple users",
+    "priority": "?",
+    "created_at": "2025-09-17T09:10:00Z"
+  },
+  {
+    "id": 3,
+    "title": "Disk near capacity",
+    "description": "Server logs fill up and disk usage reported at 95% for db-prod",
+    "priority": "?",
+    "created_at": "2025-09-17T09:20:00Z"
+  },
+  {
+    "id": 4,
+    "title": "Test Ticket",
+    "description": "This is a test escalation",
+    "priority": "?"
+  },
+  {
+    "id": 5,
+    "title": "Test Ticket",
+    "description": "This is a test escalation",
+    "priority": "?"
+  },
+  {
+    "id": 6,
+    "title": "Test Ticket",
+    "description": "This is a test escalation",
+    "priority": "?"
+  },
+  {
+    "id": 7,
+    "title": "Test Ticket",
+    "description": "This is a test escalation",
+    "priority": "?"
+  },
+  {
+    "id": 8,
+    "title": "Test Ticket",
+    "description": "This is a test escalation",
+    "priority": "?",
+    "escalation": {
+      "issue": "This is a test escalation",
+      "ai_tried": "",
+      "next_steps": [
+        "Investigate logs",
+        "Contact engineer"
+      ]
+    }
+  },
+  {
+    "id": 9,
+    "title": "Test Ticket",
+    "description": "Disk usage is high on server.",
+    "priority": "?",
+    "analysis": {
+      "priority": "P1",
+      "confidence": 0.92,
+      "suggestion": "Free up disk",
+      "diagnostics": [
+        "disk_usage"
+      ],
+      "diagnostics_sim": [
+        {
+          "check": "disk_usage",
+          "value": "95%",
+          "note": "/var > 90%"
+        },
+        {
+          "check": "vpn_status",
+          "value": "down",
+          "note": "VPN unreachable"
+        }
+      ]
+    },
+    "escalation": {
+      "issue": "Disk usage is high on server.",
+      "ai_tried": "Free up disk",
+      "next_steps": [
+        "Investigate logs",
+        "Reach out to engineer"
+      ]
+    }
+  }
+]

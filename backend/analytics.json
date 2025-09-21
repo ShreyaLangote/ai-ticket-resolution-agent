@@ -1,0 +1,11 @@
+{
+  "total_tickets": 3,
+  "by_priority": {
+    "P1": 1,
+    "P2": 0,
+    "P3": 0
+  },
+  "duplicates": 1,
+  "escalations": 2,
+  "ai_analyses": 1
+}
